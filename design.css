@@ -1,0 +1,1637 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head12{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(45, 47, 54, 0.7)), url(images/pic1.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.headnew1{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(45, 47, 54, 0.7)), url(images/bg14.webp);
+}
+.headnew4{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(45, 47, 54, 0.7)), url(images/bg14.webp);
+}
+.headnew2{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(45, 47, 54, 0.7)), url(images/bg17.jpg);
+}
+.headnew3{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(45, 47, 54, 0.7)), url(images/bg18.jpg);
+}
+.head123 img{
+     margin: 20px 30px;
+}
+.head1234{
+    padding: 0px 33px;
+    font-size: 17px;
+    margin-top: -10px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    float: right;
+    padding-top: 20px;
+    }
+.nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+    }
+.nav1 .menubar{
+    height: 50px;
+    width: 50px;
+    display: none;
+    position: absolute;
+    float: right;
+}
+.nav-links .closeicon{
+    height: 40px;
+    width: 40px;
+    display: none;
+}
+.nav-links ul li a{
+    color: rgb(252, 248, 248);
+    text-decoration: none;
+    font-size: 17px;
+    font: bold;
+    }
+.nav-links ul li::after{
+        content: "";
+        width: 0%;
+        height: 2px;
+        background: rgb(247, 6, 6);
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+.nav-links ul li:hover::after{
+        width: 100%;
+    }
+.one{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 200px;
+}
+.one h1{
+    font-size: 95px;
+    color: #f7360a;
+    font-family: 'Katibeh', cursive;
+}
+.nav1{
+    display: flex;
+}
+.pro{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+.hr{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.pro1{
+    text-align: center;
+    color: rgb(57, 56, 56);
+    font-size: 21px;
+    margin: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.data{
+    align-items: center;
+}
+.data1{
+    border-left: 13px solid gray;
+    padding: 25px 20px 25px 10px;
+    margin: 23px;
+    width: 430px;
+    background-color: rgb(107, 131, 250);
+    font-size: 26px;
+    display: inline-block;
+}
+.data1 a{
+    text-decoration: none;
+    color: black;
+}
+.solutions{
+    margin: 60px;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(45, 47, 54, 0.7)), url(images/bg4.jpg);
+    
+}
+.solutions h1{
+    text-align: center;
+    font-size: 45px;
+    color: #f04405;
+    padding-top: 30px;
+}
+.solutions p{
+    justify-content: space-between;
+    font-size: 18px;
+    color: white;
+    padding: 50px;
+}
+.solutions img{
+    height: 400px;
+    width: 600px;
+    justify-content: space-around;
+    margin-left: 350px;
+    padding-bottom: 50px;
+}
+.solnew{
+    text-align: center;
+    font-size: 20px;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(45, 47, 54, 0.7)), url(images/bg10.jpg);
+}
+.solnew p{
+    margin: -30px;
+}
+.solnew img{
+    margin-left: -50px;
+}
+.technologies{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 5px;
+    padding-left: 200px;
+    padding-top: 100px;
+    background-image: linear-gradient(to right, rgb(250, 246, 246),rgb(208, 207, 207),rgb(159, 157, 157));
+}
+.tech2{
+    width: 50%;
+}
+.tech2 button:hover{
+    background-color: red;
+}
+.tec img{
+    width:150px;
+    height: 150px;
+}
+.tech1{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.tech1 h1{
+    margin-top: 60px;
+    margin-right: -10px;
+}
+
+.technologies h1{
+    color: red;
+    font-size: 40px;
+}
+.technologies button{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.technologies{
+    display: flex;
+}
+
+/*------carpenter----*/
+.cw h1{
+    font-size:90px;
+    color: white;
+    margin-top: 250px;
+    margin-left: 100px;
+    font-family: Adobe Devanagari;
+}
+.cw h1 span{
+    font-size: 130px;
+}
+.cw h2{
+    font-size:70px;
+    color: white;
+    margin-left: 100px;
+    font-family: Adobe Devanagari;
+}
+.fur{
+    font-size:50px;
+    text-align: center;
+}
+
+.photo{
+    max-width: 2000px;
+    margin: 15px 110px;
+    overflow: auto;
+}
+.pics{
+    margin: 10px;
+    border: 1px solid rgb(201, 197, 197);
+    float: left;
+    width: 380px;
+    margin-right: 40px;
+}
+.pics img{
+    max-width: 380px;
+    height: 260px;
+    object-fit: cover;
+}
+
+.data1:hover{
+    background-color: #e86a0a;
+    font-size: 0.6cm;
+}
+.jumbomain{
+    margin-bottom: 10px;
+    margin-left:90px ;
+    display: flex;
+}
+.jmain1{
+    margin-top: -80px;
+}
+.jumbotron h1{
+    text-align: center;
+    font-size: 60px;
+}
+.jumbotron1 p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 21px;
+}
+.rowline{
+    color: red;
+}
+.jumbotron1{
+    background-color: rgb(231, 234, 237);
+    width: 320px;
+    height: 270px;
+    padding: 40px;
+    margin: 50px;
+    margin-left: 90px;
+    float: left;
+}
+.jumbotron1:hover{
+    background-color: rgb(53, 134, 53);
+    color: white;
+    box-shadow: 8px 12px 8px rgb(137, 136, 136);
+}
+.footer1{
+    background-color: rgb(187, 188, 188);
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+/*------product------*/
+.carousel-item .disp{
+   position: absolute;
+   color:rgb(210, 4, 4);
+   font-size: 60px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   font-family: Algerian;
+   margin-left: -300px;
+   margin-top: 100px;
+}
+.disp2{
+    font-size: 80px;
+    color: #f04405;
+    margin-left: 100px;
+}
+.disp21{
+    font-size: 60px;
+    margin-left: 100px;
+}
+.disp211{
+    font-size: 60px;
+    margin-left: 100px;
+}
+.perh1 h3{
+    text-align: center;
+    color: red;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.main{
+    display: flex;
+}
+.main1{
+    display: flex;
+    margin-left: 70px;
+}
+
+/*-------intoria---*/
+.welcome{
+    display: flex;
+    border: 1px solid rgb(16, 15, 15);
+    margin: 30px 80px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(202, 199, 199);
+}
+.welcome img{
+    height: 600px;
+    width: 450px;
+}
+.welcome p{
+    font-size: 17px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+/*-------what we do---*/
+.doh1 h1{
+    text-align: center;
+    font-size: 35px;
+    color: red;
+}
+.do{
+    display: flex;
+}
+.do1{
+    width: 300px;
+    height: 350px;
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 10%;
+    margin: 30px;
+    padding:0px 20px;
+    background-color: rgb(224, 225, 225);
+}
+.do1 img{
+    height: 70px;
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.do1 h2{
+    text-align: center;
+    font-size: 24PX;
+    color: #c94616;
+    margin: 5PX;
+}
+.do1 .doornew{
+    font-size: 22px;
+}
+.do1 button{
+    margin-left: 20PX;
+}
+.do1:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 8px rgb(82, 80, 80);
+}
+
+/*--------services------*/
+.serh1{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(254, 11, 11);
+}
+.service{
+    display: flex;
+}
+.service1{
+    width: 500px;
+    border: 2px solid rgb(249, 248, 248);
+    margin: 20px;
+    background-color: rgb(170, 171, 172);
+    float: left;
+    padding: 20px;
+}
+.service1 h3{
+    font-size: 22px;
+}
+.service1 .sparepnew{
+    font-size: 18px;
+}
+.service1 img{
+    height: 60px;
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.service1:hover{
+    transform: scale(1.1);
+}
+.honest {
+    margin: 30px;
+}
+.honest img{
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(45, 47, 54, 0.7)), url(images/lift2.jpg);
+    padding: 50px;
+}
+/*-----------about us-------*/
+.aboutus{
+    display: flex;
+    border: 1px solid rgb(16, 15, 15);
+    margin: 30px 100px;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+.aboutus img{
+    height: 380px;
+    width: 400px;
+}
+.aboutus p{
+    font-size: 21px;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.local{
+    margin: 30px;
+    display: flex;
+    padding: 150px;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(45, 47, 54, 0.7)), url(images/bg4.jpg);
+}
+.local1{
+    width: 250px;
+    margin-left: 60px;
+}
+.iconlogo{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+.global{
+    margin-left: 50px;
+}
+.local1 h6{
+    color: rgb(66, 203, 66);
+    font-size: 20px;
+}
+.local1 p{
+    margin-top: -5px;
+    color: white;
+    font-size: 18px;
+}
+.care{
+    padding: 50px;
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(45, 47, 54, 0.7)), url(images/lift5.jpg);
+}
+.carenew{
+    width: 50%;
+    margin-top: 90px;
+}
+.care p{
+    color: #fff;
+    font-size: 25px;
+}
+.care1{
+    float: left;
+}
+.care1 h1{
+    color: #fff;
+    font-size: 70px;
+}
+.care1 button{
+    padding: 8px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 20px;
+}
+.care1 button:hover{
+    
+    background-color: red;
+}
+.care1 img{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+/*-------interrior-------*/
+.one h6{
+    font-size: 30px;
+}
+.blog{
+    text-align: center;
+    font-size: 50px;
+}
+.work{
+    text-align: center;
+    font-size: 20px;
+    color: #f04405;
+}
+.testimonial{
+    font-size: 45px;
+    text-align: center;
+    color: rgb(254, 13, 13);
+}
+.testfloat{
+    display: flex;
+    margin-left: 150px;
+}
+.test{
+    margin-left: 5px;
+    margin-left: 80px;
+}
+.test:hover{
+    transform: scale(1.2);
+}
+.test2:hover{
+    background-color: rgb(243, 194, 194);
+}
+.test1 img{
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    margin-left: 90px;
+    border: 5px solid white;
+    object-fit: cover;
+}
+.test2{
+    height: 280px;
+    width: 300px;
+    padding: 30px;
+    font-size: 15px;
+    background-color: rgb(227, 225, 225);
+    margin-top: -20px;
+}
+.testh61{
+    text-align: end;
+    font-size: 20px;
+    color: rgb(4, 4, 217);
+}
+.testh62{
+    text-align: end;
+}
+.flow{
+    text-align: center;
+    margin-top: 100px;
+}
+.fa12{
+    margin: 20px;
+}
+.flowh1{
+    color: rgb(253, 84, 84);
+}
+.flowp{
+    font-size: 21px;
+    margin: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.ele1{
+    width: 300px;
+    float: left;
+    margin: 30px;
+    padding: 20px;
+}
+.ele1:hover{
+    transform: scale(1.2);
+    background-color: aqua;
+    box-shadow: 10px 12px 14px;
+}
+.ele{
+    margin-left: 200px;
+    display: block;
+    margin-bottom: 100px;
+}
+/*------contact----*/
+.blog1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding-top: 30px;
+}
+.contact{
+    width:100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(45, 47, 54, 0.7)), url(images/ceil5.jpg);
+}
+.con{
+    display: flex;
+}
+.con1{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.con12 h4{
+    color: aqua;
+}
+.con12 p{
+    color: white;
+}
+.con2 h4{
+    color: aqua;
+    margin-left: -200px;
+}
+.con12left img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.con2{
+    margin-left: 380px;
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+    
+}
+.jumbofooter{
+    padding: 50px 100px;
+    background-color: rgb(37, 37, 37);
+}
+.jumboleft h1{
+    color: white;
+}
+.jumboright h1{
+    color: white;
+}
+.jumboleft  p{
+    color: #f04405;
+    font-size: 20px;
+    font-family: Bahnschrift SemiBold Condensed;
+}
+.jumboright  p{
+    color: #f04405;
+    font-size: 20px;
+    font-family: Bahnschrift SemiBold Condensed;
+}
+.map{
+    border: 2px solid gray;
+    width: 600px;
+    margin-left: -200px;
+}
+nav .fa{
+    display: none;
+}
+div .pics{
+    border: 1px solid #777;
+}
+
+
+
+@media (max-width: 481px) {
+    .head12{
+        height: 100vh;
+        width: 551px;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    /*--------------
+    .head12{
+        width: 100%;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav1 .menubar{
+        display: block;
+        margin-left: 80%;
+    }
+    .nav-links .closeicon{
+        display: block;
+        margin: 10px;
+        cursor: pointer;
+        font-size: 22px;
+    }
+    .nav-links{
+        position: absolute;
+        background: #e86a0a;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0px;
+        text-align: left;
+        z-index: 2;
+        transition: 0.5s;
+    }
+    .nav-links ul{
+        padding: 50px;
+    }
+    ---------------------------*/
+
+/*--------------menubar---------*/
+    body{
+        width: 550px;
+        background-position: fixed;
+    }
+   .nav-links ul li{
+        display: block;
+   }
+   .nav-links{
+        position: absolute;
+        background: #f04405;
+        height: 100vh;
+        width:200px;
+        top:0;
+        left: -200;
+        text-align: left;
+        z-index: 2;
+        transition: 0.5s;
+   }
+   nav .fa{
+       display: block;
+       color: #fff;
+       margin: 10px;
+       font-size: 22px;
+       cursor: pointer;
+   }
+   .nav1  .new3{
+        margin-left: 60%;
+   }
+   .nav-links ul{
+        padding: 50px;
+   }
+
+
+
+    .service{
+        display: inline;
+    }
+    .service1{
+        height: 300px;
+        width: 300px;
+        border: 2px solid black;
+        margin: 15px;
+        padding: 15px;
+        border-radius: 20px;
+        background-color: rgb(170, 171, 172);
+        margin-left: 60px;
+    }
+    .service1 img{
+        height: 50px;
+        width: 50px;
+    }
+    .aboutus{
+        display: flex;
+        border: 1px solid rgb(16, 15, 15);
+        margin: 30px 50px;
+        padding: 20px;
+        border-radius: 20px;
+        width: 400px;
+        
+    }
+    .aboutus img{
+        height: 180px;
+        width: 200px;
+    }
+    .aboutus p{
+        font-size: 15px;
+        padding-left: 5px;
+        padding-top: 10px;
+    }
+    .data1{
+        border-left: 8px solid gray;
+        padding: 20px 20px 25px 10px;
+        width: 350px;
+    }
+    .data{
+        width: 400px;
+    }
+    /*-----product----*/
+    .card{
+        width:90px;
+        margin-bottom: 20px;
+        margin-left: -25px;
+    }
+    .main1{
+        display: block;
+    }
+    .main{
+        width:90px;
+    }
+    .main1 .new1{
+        width:90px;
+        margin-bottom: 20px;
+        margin-left: -95px;
+    }
+    .main1 .new2{
+        width:115px;
+        margin-bottom: 20px;
+        margin-left: -165px;
+    }
+    .do{
+        display: block;
+        margin-left: 20px;
+    }
+    
+
+    /*-------intoria---*/
+    .blog{
+        margin-left: 30px;
+    }
+.welcome{
+    display: block;
+    border: 1px solid rgb(16, 15, 15);
+    margin: 20px 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(202, 199, 199);
+}
+.welcome img{
+    height: 200px;
+    width: 280px;
+}
+.welcome p{
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.btn-group{
+    width:100px;
+}
+.dropdown-menu .dropdown-item{
+    width:100px;
+}
+.testimonial{
+    margin-left: 30px;
+}
+
+.testfloat{
+    display: block;
+    margin-left: 20px;
+}
+.card{
+        width:90px;
+        margin-bottom: 20px;
+        margin-left: -25px;
+    }
+    .main1{
+        display: block;
+    }
+    .main{
+        width:90px;
+    }
+    .main1 .new1{
+        width:90px;
+        margin-bottom: 20px;
+        margin-left: -95px;
+    }
+    .main1 .new2{
+        width:115px;
+        margin-bottom: 20px;
+        margin-left: -165px;
+    }
+    .footer1{
+        width: 481px;
+    }
+    /*--------contact--------*/
+    .contact{
+        width: 550px;
+    }
+    .con{
+        display: block;
+    }
+    .con1{
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+    .con2{
+        margin-left: -50px;
+        margin-top: 250px;
+    }
+    .form{
+        background-color: rgb(202, 203, 204);
+        padding: -10px;
+    }
+    
+}
+
+@media (max-width: 700px) {
+    .one h1{
+        margin-top: -80px;
+        font-size: 60px;
+    }
+    .head12{
+        height: 100vh;
+        width: 751px;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    /*--------------
+    .head12{
+        width: 100%;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav1 .menubar{
+        display: block;
+        margin-left: 80%;
+    }
+    .nav-links .closeicon{
+        display: block;
+        margin: 10px;
+        cursor: pointer;
+        font-size: 22px;
+    }
+    .nav-links{
+        position: absolute;
+        background: #e86a0a;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0px;
+        text-align: left;
+        z-index: 2;
+        transition: 0.5s;
+    }
+    .nav-links ul{
+        padding: 50px;
+    }
+    ---------------------------*/
+
+/*--------------menubar---------*/
+    body{
+        width: 750px;
+        background-position: fixed;
+    }
+   .nav-links ul li{
+        display: block;
+   }
+   .nav-links{
+        position: absolute;
+        background: #f04405;
+        height: 100vh;
+        width:200px;
+        top:0;
+        left: -200;
+        text-align: left;
+        z-index: 2;
+        transition: 0.5s;
+   }
+   nav .fa{
+       display: block;
+       color: #fff;
+       margin: 10px;
+       font-size: 22px;
+       cursor: pointer;
+   }
+   .nav1  .new3{
+        margin-left: 65%;
+   }
+   .nav-links ul{
+        padding: 50px;
+   }
+   
+   .nav-links ul li:hover{
+        background-color: #c94616;
+   }
+
+
+
+    .service{
+        display: inline;
+    }
+    .serh1 h1{
+        font-size: 60px;
+    }
+    .service1{
+        height: 380px;
+        width: 500px;
+        border: 2px solid rgb(235, 233, 233);
+        margin: 15px;
+        padding: 15px;
+        border-radius: 10px;
+        background-color: rgb(170, 171, 172);
+        margin-left: 120px;
+    }
+    .service1 img{
+        height: 130px;
+        width: 200px;
+        margin-left: 110px;
+    }
+    .aboutus{
+        display: flex;
+        border: 1px solid rgb(16, 15, 15);
+        margin: 30px 50px;
+        padding: 20px;
+        border-radius: 20px;
+        width: 600px;
+    }
+    .aboutus img{
+        height: 280px;
+        width: 200px;
+    }
+    .aboutus p{
+        font-size: 18px;
+        padding-left: 5px;
+        padding-top: 10px;
+    }
+    .solutions img{
+        height: 300px;
+        width: 500px;
+        justify-content: space-around;
+        margin-left: 50px;
+        padding-bottom: 50px;
+    }
+    .data1{
+        border-left: 10px solid gray;
+        padding: 20px 20px 25px 10px;
+        width: 500px;
+        margin-left: 130px;
+    }
+    .data{
+        width: 600px;
+    }
+    .ele{
+        margin-bottom: 780px;
+    }
+    .ele1{
+        width: 400px;
+        margin-left: -20px;
+    }
+    .technologies{
+        display: block;
+        height: 700px;
+    }
+    .tech2{
+        margin-left: -50px;
+        width: 60%;
+    }
+    .tech1{
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+    .cw h1{
+        font-size:60px;
+        color: white;
+        margin-top: 200px;
+        margin-left: 100px;
+        font-family: Adobe Devanagari;
+    }
+    .cw h1 span{
+        font-size: 90px;
+    }
+    .cw h2{
+        font-size:40px;
+        color: white;
+        margin-left: 100px;
+        font-family: Adobe Devanagari;
+    }
+    /*-----product----*/
+    .card{
+        width:500px;
+        margin-bottom: 20px;
+        margin-left: -25px;
+    }
+    .main1{
+        display: block;
+        width: auto;
+    }
+    .main{
+        width:400px;
+        margin-left: 150px;
+        
+    }
+    .main1 .new1{
+        width:360px;
+        margin-bottom: 20px;
+        margin-left: -95px;
+    }
+    .main1 .new2{
+        width:360px;
+        margin-bottom: 20px;
+        margin-left: -165px;
+    }
+    .do{
+        display: block;
+        margin-left: 20px;
+    }
+    .do1{
+        width:400px;
+        font-size: 17px;
+        margin-left: 170px;
+    }
+    .do1 img{
+        margin-left: 120px;
+    }
+
+    /*-------intoria---*/
+    .blog{
+        margin-left: 30px;
+    }
+.welcome{
+    display: block;
+    border: 1px solid rgb(16, 15, 15);
+    margin: 20px 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(202, 199, 199);
+}
+.welcome img{
+    height: 250px;
+    width: 400px;
+    margin-left: 170px;
+}
+.welcome p{
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.btn-group{
+    width:200px;
+}
+.dropdown-menu .dropdown-item{
+    width:280px;
+}
+.testimonial{
+    margin-left: -50px;
+}
+
+.testfloat{
+    display: block;
+    margin-left: 120px;
+}
+.test{
+    margin-top: 20px;
+    margin: 50px;
+}
+.test1{
+    margin-left: 20px;
+}
+.test1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 360px;
+    border: 10px solid white
+}
+.test2{
+    width: 400px;
+    padding-top: 80px;
+    margin-top: -30px;
+}
+.card{
+        width:90px;
+        margin-bottom: 20px;
+        margin-left: -25px;
+    }
+    .main1{
+        display: block;
+    }
+    .main{
+        width:90px;
+    }
+    .main1 .new1{
+        width:90px;
+        margin-bottom: 20px;
+        margin-left: -95px;
+    }
+    .main1 .new2{
+        width:115px;
+        margin-bottom: 20px;
+        margin-left: -165px;
+    }
+    .footer1{
+        width: 751px;
+    }
+    .care{
+        height: 1000px;
+        margin-bottom: 10px;
+    }
+    .carenew {
+        width: 100%;
+    }
+    /*--------contact--------*/
+    .contact{
+        width: 750px;
+    }
+    .con{
+        display: block;
+    }
+    .con1{
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+    .con2{
+        margin-left: 80px;
+        margin-top: -170px;
+    }
+    .con2 h4{
+        font-size: 60px;
+        color: rgb(29, 29, 248);
+        margin-top: 150px;
+        text-align: center;
+        margin-left: -30px;
+    }
+    .map{
+       margin-left: -30px;
+       padding-bottom: 80px;
+    }
+    .photo{
+        max-width: 750px;
+        margin: 15px 50px;
+        overflow: auto;
+    }
+    .pics{
+        margin-left: 130px;
+        border: 1px solid rgb(201, 197, 197);
+        float: left;
+        width: 400px;
+        margin-right: 40px;
+    }
+    .pics img{
+        max-width: 400px;
+        height: 260px;
+    }
+    .jumbonew{
+        margin-top: 580px;
+    }
+    .local{
+        margin: 30px;
+        display: flex;
+        padding: 50px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(45, 47, 54, 0.7)), url(images/bg4.jpg);;
+    }
+    .local1{
+        width: 200px;
+        margin-left: 30px;
+    }
+    .iconlogo{
+        width: 60px;
+        height: 60px;
+        margin-left: 20px;
+    }
+    .global{
+        margin-left: 20px;
+    }
+    .h6loc1{
+        margin-left: -20px;
+    }
+    .h6loc2{
+        margin-left: 10px;
+    }
+    .ploc{
+        margin-left: -20px;
+    }
+    .local1 h6{
+        color: rgb(66, 203, 66);
+        font-size: 18px;
+    }
+    .local1 p{
+        margin-top: -5px;
+        color: white;
+        font-size: 16px;
+    }
+    .jumbomain{
+        margin-bottom: 10px;
+        margin-left:30px ;
+        display: flex;
+    }
+    .jmain1{
+        margin-top: 20px
+    }
+    .jumbotron1{
+        background-color: rgb(231, 234, 237);
+        width: 200px;
+        height: 270px;
+        padding: 15px;
+        margin: 20px;
+        float: left;
+    }
+    .jumbotron1 h1{
+        font-size: 35px;
+    }
+}
+
+/*-----701-1300px----*/
+@media (min-width: 701px) and (max-width: 1300px) {
+    .head12{
+        height: 100vh;
+        width: 1300px;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    .headnew{
+        width: 1300;
+    }
+    .new2{
+        width: 200rem;
+        margin-left: -50px;
+    }
+    .new1{
+        width: 200rem;
+        margin-left: -50px;
+    }
+    .card{
+        width: 200rem;
+        margin-left: -50px;
+    }
+    .testfloat{
+        margin-left: 50px;
+    }
+    .hr{
+        width: 800px;
+    }
+    body{
+        width: 100%;
+    }
+    /*--------------
+    .head12{
+        width: 100%;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav1 .menubar{
+        display: block;
+        margin-left: 80%;
+    }
+    .nav-links .closeicon{
+        display: block;
+        margin: 10px;
+        cursor: pointer;
+        font-size: 22px;
+    }
+    .nav-links{
+        position: absolute;
+        background: #e86a0a;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0px;
+        text-align: left;
+        z-index: 2;
+        transition: 0.5s;
+    }
+    .nav-links ul{
+        padding: 50px;
+    }
+    ---------------------------*/
+    .data1{
+        width: 450px;
+        margin-left: 30px;
+    }
+    .solutions img{
+        margin-left: 200px;
+    }
+    .serh1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .service{
+        display: flex;
+        overflow: auto;
+        width: 1300px;
+    }
+    .service1{
+        height: 480px;
+        width: 390px;
+        border: 2px solid rgb(236, 236, 236);
+        margin: 10px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: rgb(170, 171, 172);
+        float: left;
+    }
+    .service1 img{
+        height: 50px;
+        width: 50px;
+    }
+    
+    .serh1 h1{
+        text-align: center;
+    }
+    .aboutus{
+        width: 1200px;
+    }
+    .solutions{
+        width: 1200px;
+    }
+    .jumbofooter{
+        width: 1300px;
+    }
+    .footer1{
+        width: 1300px;
+    }
+    .jf1 {
+        width: 1430px;
+    }
+    .f11{
+        width: 1430px;
+    }
+    .jumbotron1{
+        width: 350px;
+        height: 350px;
+        padding: 40px;
+        margin: 50px;
+        margin-left: 90px;
+    }
+    .one h1{
+        margin-top: -80px;
+        font-size: 50px;
+    }
+    .con1{
+        margin-left: 100px;
+    }
+    .con12{
+        width: 380px;
+        margin-top: -30px;
+    }
+    .contact{
+        width:1300px;
+        height: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(45, 47, 54, 0.7)), url(image/ceil5.jpg);
+    }
+    .con2{
+        margin-left: 200px;
+    }
+    .pro{
+        text-align: center;
+        margin-left: 450px;
+    }
+    .pro1{
+        text-align: center;
+        margin-left: 200px;
+        margin-right: 200px;
+        width: 1000px;
+    }
+    .data{
+        width: 1300px;
+    }
+    .jmain1{
+        width: 1300px;
+    }
+    .jumbotron1{
+        width: 400px;
+        height: 350;
+    }
+    .technologies{
+        width: 1300px;
+        height: 500px;
+    }
+    .tech2{
+        margin-left: -10px;
+        width: 60%;
+    }
+    .tech1{
+        margin-left: 150px;
+        margin-top: 230px;
+    }
+    .care{
+        width: 1435px;
+        height: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .carenew {
+        width: 40%;
+    }
+    .care1 img{
+        width: 300px;
+    }
+    .ele{
+        width: 1300px;
+        margin: 30px;
+    }
+    .flow{
+        margin-left: 100px;
+        justify-content: center;
+    }
+    .local{
+        width: 1400px;
+        margin: 10px;
+        display: flex;
+        padding: 100px;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(45, 47, 54, 0.7)), url(images/bg4.jpg);
+    }
+    .local1{
+        width: 200px;
+        margin-left: 50px;
+    }
+    .headnew2{
+        width: 1435px;
+    }
+    .ele{
+        margin-bottom: 100px;
+    }
+    .do1{
+        height: 400px;
+    }
+    .blog{
+        padding-left: 200px;
+    }
+    .blog p{
+        margin-left: 200px;
+    }
+    .testimonial{
+        margin-left: 300px;
+    }
+    .hrnew{
+        display: none;
+    }
+
+}
+
+/*-----------700-1000----*/
+@media (min-width: 701px) and (max-width: 1000px){
+    .data1{
+        width: 350px;
+        margin-left: 30px;
+    }
+    .serh1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .service{
+        display: block;
+        overflow: auto;
+        width: 1300px;
+    }
+    .service1{
+        height: 380px;
+        width: 400px;
+        border: 2px solid rgb(235, 233, 233);
+        margin: 15px;
+        padding: 15px;
+        border-radius: 10px;
+        background-color: rgb(170, 171, 172);
+        margin-left: 150px;
+    }
+    .service1 img{
+        height: 110px;
+        width: 100px;
+    }
+    /*-----------about us-------*/
+    .aboutus{
+        display: flex;
+        border: 1px solid rgb(16, 15, 15);
+        margin: 30px 100px;
+        padding: 20px;
+        border-radius: 20px;
+        width:1100px;
+    }
+    .aboutus img{
+        height: 380px;
+        width: 400px;
+    }
+    .aboutus p{
+        font-size: 21px;
+        padding-left: 10px;
+        padding-top: 15px;
+    }
+    .serh1 {
+        margin-left: 200px;
+    }
+    .solutions img{
+        margin-left: 50px;
+        width: 500px;
+    }
+    .local{
+        width: 1300px;
+        margin: 30px;
+        display: flex;
+        padding: 70px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(45, 47, 54, 0.7)), url(images/bg4.jpg);;
+    }
+    .local1{
+        width: 300px;
+        margin-left: 50px;
+    }
+    .iconlogo{
+        width: 60px;
+        height: 60px;
+        margin-left: 20px;
+    }
+    .global{
+        margin-left: 20px;
+    }
+    .h6loc1{
+        margin-left: -20px;
+    }
+    .h6loc2{
+        margin-left: 10px;
+    }
+    .ploc{
+        margin-left: -20px;
+    }
+    .local1 h6{
+        color: rgb(66, 203, 66);
+        font-size: 18px;
+    }
+    .local1 p{
+        margin-top: -5px;
+        color: white;
+        font-size: 16px;
+    }
+    .flowh1{
+        margin-left: 180px;
+    }
+    .flowp{
+        margin-left: 180px;
+    }
+    .flo{
+        width: 150%;
+    }
+    .ele{
+        margin-bottom: 100px;
+    }
+    .jumbotron1{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+
+    
